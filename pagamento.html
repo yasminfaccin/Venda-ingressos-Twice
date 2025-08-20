@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/pagamento.css">
+    <title>Pagamento</title>
+</head>
+<body>
+    <header>
+        <h1>Setor de compra de ingressos</h1>
+    </header>
+
+    <main>
+        <div class="tempo">
+            <p>Tempo para reaalização da compra</p>
+            <p id="timer">10 minutos</p>
+        </div>
+        <div class="comprar">
+            <h2>Pagamento</h2>
+            <p>Preencha as informações a baixo para garantir seu ingresso</p><br>
+
+            <label>Nome</label>
+            <input type="text" id="nome" placeholder="Digite o seu nome" required> <br><br>
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" required> <br><br>
+            <label>Telefone</label>
+            <input type="text" id="telefone" placeholder="Digite seu telefone" required> <br><br>
+            <label>Tipo do ingresso</label>
+            <select id="tipoingresso" required>
+                <option value="">Selecione o tipo de ingresso</option>
+                <option value="inteira">Inteira</option>
+                <option value="meia-entrada">Meia-entrada</option>
+            </select> <br><br>
+            <label>Setor</label>
+            <select id="setor" required>
+                <option value="">Selecione o setor</option>
+                <option value="pista-premium">Pista Premium</option>
+                <option value="pista">Pista</option>
+                <option value="cadeira-inferior">Cadeira Inferior</option>
+                <option value="cadeira-superior">Cadeira Superior</option>
+            </select><br><br>
+            <button id="finalizar-compra">Finalizar Compra</button>
+        </div>
+
+        
+    </main>
+</body>
+</html>

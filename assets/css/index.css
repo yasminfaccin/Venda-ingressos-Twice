@@ -1,0 +1,124 @@
+body {
+    background-color: #FFFACD;
+    font-family: Verdana;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #e6e6fa;
+    color: #000000;
+    padding: 30px;
+}
+
+.imgshow {
+    margin: 0;
+    width: 100%;
+    position: center;
+
+
+}
+
+.descricao {
+    background-color:#FFB6C1;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+
+}
+
+.integrante-card {
+    background-color: #55599b;
+    border: 1px solid #21245f;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    margin: 15px;
+    padding: 15px;
+    width: 27.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrante-card img {
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Espaço entre os cads */
+    padding: 5px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.tabela {
+    background-color: rgb(241, 196, 255);
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    background-color: white;
+    width: 80%;
+    font-family: Arial;
+    margin: auto;
+    border-collapse: collapse;
+}  
+
+caption {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #21245f;
+
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    padding: 12px;
+    background-color: #332142;
+    color: antiquewhite;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #527069;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    padding: 10px;
+}
+
+.pagamento {
+    background-color: green;
+    position: center;
+    padding: 20px;
+    margin: 15px;
+}
+
